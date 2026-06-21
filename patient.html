@@ -569,7 +569,7 @@
                     </div>
 
                     <div class="space-y-4">
-                        <!-- Q1 -->
+<!-- Q1 -->
                         <div class="bg-brandLight p-4 rounded-2xl border border-gray-100 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
                             <span class="text-sm font-bold text-gray-800">سرعة ووضوح إجراءات الدخول <span class="text-red-500">*</span></span>
                             <div class="flex gap-3 w-full sm:w-auto">
@@ -583,6 +583,20 @@
                             </div>
                         </div>
 
+                        <!-- Q2 -->
+                        <div class="bg-brandLight p-4 rounded-2xl border border-gray-100 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+                            <span class="text-sm font-bold text-gray-800">سرعة ووضوح إجراءات الخروج <span class="text-red-500">*</span></span>
+                            <div class="flex gap-3 w-full sm:w-auto">
+                                <input type="hidden" name="entry.558340461" id="admin_q2" required value="">
+                                <button type="button" onclick="setCustomRating('admin_q2', 'راضي', this)" class="rating-pill flex-1 sm:flex-initial flex items-center justify-center gap-1.5 px-4 py-2 rounded-xl border border-gray-200 bg-white text-xs font-bold text-gray-500 hover:bg-green-50/50 transition duration-300">
+                                    <i class="fa-solid fa-smile text-lg"></i> راضي
+                                </button>
+                                <button type="button" onclick="setCustomRating('admin_q2', 'غير راضي', this)" class="rating-pill flex-1 sm:flex-initial flex items-center justify-center gap-1.5 px-4 py-2 rounded-xl border border-gray-200 bg-white text-xs font-bold text-gray-500 hover:bg-red-50/50 transition duration-300">
+                                    <i class="fa-solid fa-frown text-lg"></i> غير راضي
+                                </button>
+                            </div>
+                        </div>
+                        
                         <!-- Q2 -->
                         <div class="bg-brandLight p-4 rounded-2xl border border-gray-100 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
                             <span class="text-sm font-bold text-gray-800">تعامل موظفي الاستقبال <span class="text-red-500">*</span></span>
@@ -752,7 +766,7 @@
             <!-- Patient Experience Dept Signature inside success screen -->
             <div class="flex justify-center items-center gap-2">
                 <i class="fa-solid fa-heart-pulse text-patientGreen text-lg"></i>
-                <span class="text-xs font-bold text-patientGold">مع تحيات إدارة تجربة المريض بمستشفى شرق جدة</span>
+                <span class="text-xs font-bold text-patientGold">مع تحيات الإدارة التنفيذية لتجربة المريض بمستشفى شرق جدة</span>
             </div>
             <button onclick="window.location.reload()" class="mt-8 text-xs font-bold text-secondary bg-brandLight border border-sky-100 px-5 py-2.5 rounded-full hover:bg-sky-100/50 transition">
                 إرسال تقييم جديد <i class="fa-solid fa-rotate-left mr-1"></i>
